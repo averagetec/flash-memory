@@ -7,3 +7,12 @@
     width: 100%;
     height:100%;
 }
+
+main{
+    background-image: url("https://external-preview.redd.it/vnWhwClgEdoPirddaL72_s5a0hCRSnH3uozp7tTPIvc.jpg?auto=webp&s=9e0bb239543b2de64fb9d9e034e13e7a6880b442");
+    background-color: #cccccc;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
