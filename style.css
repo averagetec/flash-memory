@@ -1,9 +1,34 @@
+*{
+    box-sizing: border-box;
+}
 .light_container{
-    width:80px;
-    height: 80px;
+    width: 316px;
+    height: 20%;
+    align-content:center;
+    position: relative;
+    top: 100px;
 }
 
 .light_bulb{
     width: 100%;
-    height:100%;
+    height:99%;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+main{
+    background-image: url("https://external-preview.redd.it/vnWhwClgEdoPirddaL72_s5a0hCRSnH3uozp7tTPIvc.jpg?auto=webp&s=9e0bb239543b2de64fb9d9e034e13e7a6880b442");
+    background-color: #cccccc; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    height:100vh;
+    margin: -8px;
+    
+}
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
