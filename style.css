@@ -4,13 +4,9 @@
 .light_container{
     width: 316px;
     height: 20%;
-    display: flex;
-    align-content: space-around;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    position: sticky;
+    align-content:center;
+    position: relative;
+    top: 100px;
 }
 
 .light_bulb{
@@ -25,13 +21,13 @@ main{
     background-color: #cccccc; 
     background-position:center;
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:cover; 
+    height:100vh;
+    margin: -8px;
     
 }
 section{
     display: flex;
-    height: 953px;
-    width: 100%;
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
